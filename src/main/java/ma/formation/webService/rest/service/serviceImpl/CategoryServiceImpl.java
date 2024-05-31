@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 @Service
 @AllArgsConstructor
 @Slf4j
-public class ICategoryServiceImpl implements ICategoryService {
+public class CategoryServiceImpl implements ICategoryService {
     private final ICategoryRepository iCategoryRepository;
     private final ICategoryMapper iCategoryMapper;
     @Override
